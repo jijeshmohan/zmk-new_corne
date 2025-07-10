@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - '&home_row_mod_left LCTRL A'
-  - '&home_row_mod_left LEFT_ALT S'
-  - '&home_row_mod_left LSHIFT D'
-  - '&home_row_mod_left LEFT_COMMAND F'
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - '&home_row_mod_right RIGHT_COMMAND J'
-  - '&home_row_mod_right RSHIFT K'
-  - '&home_row_mod_right RIGHT_ALT L'
-  - '&home_row_mod_right RIGHT_CONTROL SEMI'
+  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
